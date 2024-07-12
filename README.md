@@ -45,6 +45,12 @@ Tambien se puede registrar un usuario nuevo en el sistema, que por defecto tendr
 <img src="https://github.com/juanm-mrqz/forohub_challenge/blob/main/assets/images/signup-response.png" alt="Respuesta al registro de un usuario">
 
 
+<h2>TODO</h2>
+Si bien la funcionalidad mínima requerida esta cumplida, todavía quedan algunas funcionalidades que se podria agregar a la app, como 
+- Modificar los permisos de las url segun el privilegio del usuario. 
+- Crear controllers especificos para el manejo de Cursos y Respuestas. 
+
+
 - <h4>Registrar topicos</h4>
 La funcionalidad principal de registrar topicos, requiere de un usuario autenticado (ya sea el admin por defecto, o un nuevo usuario registrado) 
 
