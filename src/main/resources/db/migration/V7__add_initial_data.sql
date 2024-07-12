@@ -2,7 +2,8 @@ INSERT INTO profiles (name) VALUES ("ADMIN");
 INSERT INTO profiles (name) VALUES ("MOD");
 INSERT INTO profiles (name) VALUES ("USER");
 
-INSERT INTO users (login, password, email) VALUES ('admin', '$2a$10$8YQBNVNsRCjZ482tVIeQR..i1A95kdPVRX9uGVyd5oLdBvY5TQWE2', 'admin@example.com') ;
+INSERT INTO users (login, password, email)
+VALUES ('admin', '$2a$10$8YQBNVNsRCjZ482tVIeQR..i1A95kdPVRX9uGVyd5oLdBvY5TQWE2', 'admin@example.com') ;
 
 INSERT INTO users_profiles(user_id, profile_id) VALUES(1, 1);
 
