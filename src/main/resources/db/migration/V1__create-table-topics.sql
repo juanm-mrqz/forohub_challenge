@@ -1,0 +1,12 @@
+
+
+CREATE TABLE topics (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(50) NOT NULL,
+    message VARCHAR(3000) NOT NULL,
+    created_at DATETIME DEFAULT (CURRENT_TIMESTAMP),
+    status ENUM('NEW', 'UPDATED', 'CLOSED'),
+    author_id INT NOT NULL,
+    course_id INT NOT NULL
+
+);

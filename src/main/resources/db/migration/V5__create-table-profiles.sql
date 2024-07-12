@@ -1,0 +1,4 @@
+CREATE TABLE profiles (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    name ENUM('ADMIN', 'MOD', 'USER') NOT NULL
+);
