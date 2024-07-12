@@ -19,9 +19,9 @@
 
 - <h4>Inicializacion de Base de datos</h2>
 Antes de probar la app, hay que configurar el archivo `application properties` para poder utilizar en el entorno local de MySQL con una base
-de datos propia. Se deben reemplazar los campos: 
-    - spring.datasource.url=jdbc:mysql://localhost:3306/<nombre_db>
-    - spring.datasource.username=<usuario>
-    - spring.datasource.password=<contraseña>
+de datos propia. Se deben reemplazar los campos:<br/>
+    - `spring.datasource.url=jdbc:mysql://localhost:3306/<nombre_db>`
+    - `spring.datasource.username=<usuario>`
+    - `spring.datasource.password=<contraseña>`
 
 - <h4>Inicializacion de datos</h4>
